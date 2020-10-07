@@ -1,0 +1,58 @@
+
+
+<html>
+
+<body>
+	<button id="btn1">Toggle Button</button>
+	<div class="row">
+		<div class="col-xs-3"
+
+			<div id="myid1" class="panel panel-primary">
+				<div class="panel-heading">
+					My panel
+				</div>
+				<div class="panel-body">
+								Hello world1 <br>
+				Hello world1 <br>
+				Hello world1 
+
+					
+				</div>
+			</div>
+		</div>		
+	</div>
+</body>
+
+<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+
+<script>
+	$(document).ready(function() {
+
+	});
+
+
+	$(function () {
+		$("#myid1").hide(300).show(1000);		
+
+		// $("#myid1").css({color:'red'});
+		// $("#myid1").css({opacity:'0.5'});	
+
+		// $("#myid1").html("Hello girls!!!");
+
+		$('#btn1').on('click', function() {
+			$("#myid1").slideToggle(1000);
+		} );
+
+
+	});
+
+	$(function(){
+
+
+
+	})
+
+
+</script>
+
+</html>

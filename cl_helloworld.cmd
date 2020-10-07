@@ -1,0 +1,1 @@
+cl helloworld.cpp /link user32.lib gdi32.lib Opengl32.lib glu32.lib

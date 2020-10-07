@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		// function named as jquery $    !!!!!!!!
+		function $(inc)
+		{
+			alert('hellow world ' + inc);
+		}
+
+		$('george barbagiannis');
+
+
+
+		class myclass {
+			hello()	{
+				document.write("hello world inside myclass and method hello()<br>");
+			}
+		}
+
+		function sayhelloword()	{
+			document.write("hello world from sayhelloword() function <br>");
+		}
+
+		var a;
+
+		a = 120;
+		document.write(typeof(a) + " a = " + a + "<br>");
+
+		a = 120.12;
+		document.write(typeof(a) + " a = " + a + "<br>");
+
+		a = "hello world";
+		document.write(typeof(a) + " a = " + a + "<br>");
+
+		a = true;
+		document.write(typeof(a) + " a = " + a + "<br>");
+
+		a = sayhelloword;
+		document.write(typeof(a) + " = ");
+		a();
+
+		a = new myclass();
+		document.write(typeof(a) + " = ");
+		a.hello();
+
+		var retVal = confirm("Do you want to continue ?");
+		document.write(" retVal = " + retVal + "<br>");
+
+		var retVal = prompt("Enter your name : ", "your name here");
+		document.write(" retVal = " + retVal + "<br>");
+	</script>
+
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+cl win32app.cpp /link User32.lib
