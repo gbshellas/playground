@@ -1,11 +1,12 @@
 @echo off
 
+rem echo %~f0
+
 if "%1" NEQ "execute123" (    
-    call selfcall execute123 > selfcallLog.log
+	echo inside recurtion batch
+    call selfcall execute123 
     goto :EOF
 )
 
-echo %~f0
-echo command 2
-echo command 3
+echo end of main batch
 

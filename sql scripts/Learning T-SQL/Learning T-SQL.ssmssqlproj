@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Learning T-SQL">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="172.18.184.23:sa">
+          <Created>2021-10-07T15:18:57.8271148+03:00</Created>
+          <Type>SQL</Type>
+          <Server>172.18.184.23</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Error Handling - RAISERROR and THROW.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.184.23:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.184.23</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Error Handling - RAISERROR and THROW.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Error Handling - Try Catch.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.184.23:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.184.23</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Error Handling - Try Catch.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.184.23:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.184.23</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>SQLQuery3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Transactions - Simulate Deadlocks.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.184.23:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.184.23</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Transactions - Simulate Deadlocks.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Window Functions - Aggregate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.184.23:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.184.23</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Window Functions - Aggregate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Window Functions - Analytic.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.184.23:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.184.23</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Window Functions - Analytic.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Window Functions - Ranking.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.18.184.23:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.18.184.23</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Window Functions - Ranking.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

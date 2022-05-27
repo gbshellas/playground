@@ -1,0 +1,2 @@
+Manifest-Version: 1.0
+Class-Path: lib/jpos114.jar lib/jna.jar lib/jssc.jar
