@@ -1,0 +1,1 @@
+insert into table1 values (1, "hello world");
