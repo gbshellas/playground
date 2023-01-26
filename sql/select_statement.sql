@@ -7,4 +7,6 @@ select the_baby_field, a_new_field from other_table2
 select * from table2;
 -- a new approach from developer 1
 -- some code written
-select some_field from some_table1;
+-- Hotfix1
+select some_field from some_table1_1;
+
